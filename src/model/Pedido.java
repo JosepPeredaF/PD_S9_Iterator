@@ -7,7 +7,7 @@ public class Pedido {
     private double precioTotal;
     private String estado; // pendiente, rechazada o aprobado
 
-    public Pedido(String id, String fecha, String cliente, double precioTotal, String estado) {
+    public Pedido(String id, String fecha, String cliente, double precioTotal) {
         this.id = id;
         this.fecha = fecha;
         this.cliente = cliente;
