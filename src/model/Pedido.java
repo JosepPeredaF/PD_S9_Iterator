@@ -33,7 +33,7 @@ public class Pedido {
 
     @Override
     public String toString() {
-        return "Pedido{" +
+        return "Pedido{ " +
                 "id='" + id + '\'' +
                 ", fecha='" + fecha + '\'' +
                 ", cliente='" + cliente + '\'' +
